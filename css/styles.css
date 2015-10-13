@@ -1,0 +1,27 @@
+/*Global*/
+body { 
+    background: teal;
+}
+
+img {
+    width: 50%;
+}
+
+/*Layout*/
+
+
+/*Typography*/
+
+
+/*Navigation*/
+a {
+    background: pink;
+    border-radius: 10px;
+    display: block;
+    height: 50px;
+    width: 100px;
+}
+
+li {
+    display: inline-block;
+}
