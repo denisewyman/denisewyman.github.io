@@ -29,7 +29,7 @@ body {
 }
 /*img*/
 img {
-    width: 25%;
+    width: 15%;
     text-align: center;
     
 }
@@ -43,11 +43,50 @@ border: white solid 0.125em;
 /*Layout*/
 
 .title {
-font-size: 6.125em;
+font-size: 5.125em;
     text-align: center;
     postion:absolute;
-    float: left;
+    
 }
+
+h2, h3{
+background: #fff;
+    opacity: .6;
+    padding: 1px 0px 1px 0px;
+    border-radius: 25px;
+    text-align: center;
+}
+li{
+    color:aqua;
+text-align:center;
+}
+/*fluid container*/
+
+main {
+  background: yellow;
+  margin: 0 auto;
+  width: 100%; /* 1000px / 1000px = 1*/
+  }
+
+article,
+aside {
+  float: left;
+}
+
+article {
+  background: blue;
+  padding: 2.5%;
+  margin: 1%; 
+  width: 53%; 
+}
+
+aside {
+  background: red;
+  padding: 2.7777777778%;
+  margin: 1%;
+  width: 32%;
+}
+
 
 /*Typography*/
 
