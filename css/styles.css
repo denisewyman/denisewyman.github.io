@@ -1,25 +1,91 @@
 /*Global*/
-body { 
-    background: teal;
+@media screen and ( min-width: 480px ) {
+    
+  body {
+    transition: background 1s;
+ }
+  
+  .mob {
+    display: none;
+  }
+  
 }
 
+/*Tablet*/
+@media screen and ( max-width: 768px ) {
+    
+  body {
+    transition: background 1s;
+ }
+  
+  .tab{
+    display: none;
+  }
+}
+
+/*context*/
+body { 
+    background: ;
+}
+/*img*/
 img {
-    width: 50%;
+    width: 25%;
+    text-align: center;
+    
+}
+.denise {
+border: white solid 0.125em;
+    display:block'
+        margin: 0 auto;
+    
 }
 
 /*Layout*/
 
+.title {
+font-size: 6.125em;
+    text-align: center;
+    postion:absolute;
+    float: left;
+}
 
 /*Typography*/
 
 
 /*Navigation*/
-a {
-    background: pink;
-    border-radius: 10px;
-    display: block;
-    height: 50px;
-    width: 100px;
+ul {
+  margin-top: 0;
+}
+li {
+    list-style: none;
+  float: left;
+}
+
+/* Base Styling and Visited*/
+a:link,
+a:visited {
+  color: #66F9F4;
+  display: block;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  padding-top: 0;
+  width: 100px; 
+  
+  transition: padding-top 1s;
+  }
+
+/* hover state */
+a:focus,
+a:hover,
+a:active {
+  background: #66F9F4;
+  color: #60EA52;
+  border-left: 8px solid #fff;
+   padding-top: 32px;
+}
 }
 
 li {
