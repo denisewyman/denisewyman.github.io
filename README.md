@@ -2,7 +2,7 @@
 My Awesome Website!
 citations
 
-background:
+background: http://www.themesltd.com/covers/galaxy_nebula_cat.png
 
 peace sign: 
 https://commons.wikimedia.org/wiki/File:Emoji_u270c.svg

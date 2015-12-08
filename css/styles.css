@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="css/gallery.theme.css">
 /*Global*/
 @media screen and ( min-width: 480px ) {
     
@@ -64,13 +65,15 @@ width: 141.38px;
 }
 
 .title {
+   font-family: fantasy;
 font-size: 5.125em;
     text-align: center;
     postion:absolute;
-    
+  
 }
 
 h1{
+    font-family: fantasy;
     color:azure;
     text-transform: uppercase;
     font-size: 7em;
@@ -81,6 +84,7 @@ h1{
 blockquote{
 color:#66F9F4;
     font-size: 1.5em;
+    font-family: fantasy;
 }
 
 p{
@@ -94,11 +98,13 @@ background: #fff;
     padding: 1px 0px 1px 0px;
     border-radius: 25px;
     text-align: center;
+    font-family: fantasy;
+  
 }
 
 h4{
     font-size: 20px;
-}
+   
 
 body{
     background-image: url(http://www.themesltd.com/covers/galaxy_nebula_cat.png);
@@ -138,7 +144,7 @@ aside {
 
 p{
 text-align: center;
-    font-family:
+    font-family: fantasy;
 }
 
 h5 {
@@ -150,11 +156,13 @@ h5 {
 ul {
   margin-top: 0;
     text-align: center;
+    font-family: fantasy;
 }
 li {
     list-style: none;
   float: left;
     text-align: center;
+    font-family: fantasy;
 }
 
 /* Base Styling and Visited*/
