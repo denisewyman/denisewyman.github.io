@@ -24,23 +24,44 @@
 }
 
 /*context*/
-body { 
-    background: ;
-}
+
 /*img*/
 img {
-    width: 15%;
+    width: 25%;
     text-align: center;
     
 }
 .denise {
-border: white solid 0.125em;
-    display:block'
-        margin: 0 auto;
-    
+  border: 10px solid white;
+  border-radius: 400px;
+  height: 400px;
+  width: 400px;
+}
+
+.peace{
+    width: 50px;}
+
+.like {
+width:60px;
+}
+
+.gmail{
+width: 60px}
+
+.eagles {
+width: 141.38px;
 }
 
 /*Layout*/
+
+/*grid-container*/
+
+.grid-container {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 .title {
 font-size: 5.125em;
@@ -49,12 +70,39 @@ font-size: 5.125em;
     
 }
 
-h2, h3{
+h1{
+    color:azure;
+    text-transform: uppercase;
+    font-size: 7em;
+    display: block;
+    font-weight: bold;
+}
+
+blockquote{
+color:#66F9F4;
+    font-size: 1.5em;
+}
+
+p{
+color:#66F9F4;
+    font-size: 1.25em;
+}
+
+h2, h3, h4{
 background: #fff;
     opacity: .6;
     padding: 1px 0px 1px 0px;
     border-radius: 25px;
     text-align: center;
+}
+
+h4{
+    font-size: 20px;
+}
+
+body{
+    background-image: url(http://www.themesltd.com/covers/galaxy_nebula_cat.png);
+line-height: 1.5em;
 }
 li{
     color:aqua;
@@ -63,9 +111,8 @@ text-align:center;
 /*fluid container*/
 
 main {
-  background: yellow;
   margin: 0 auto;
-  width: 100%; /* 1000px / 1000px = 1*/
+  width: 100%;
   }
 
 article,
@@ -74,30 +121,40 @@ aside {
 }
 
 article {
-  background: blue;
-  padding: 2.5%;
+  background: transparent;
+  padding: 1%;
   margin: 1%; 
   width: 53%; 
+    height: 12%;
 }
 
 aside {
-  background: red;
-  padding: 2.7777777778%;
+  background: transparent;
+  padding: 1%;
   margin: 1%;
   width: 32%;
+    height: 15%;
 }
 
+p{
+text-align: center;
+    font-family:
+}
 
+h5 {
+    color: transparent;}
 /*Typography*/
 
 
 /*Navigation*/
 ul {
   margin-top: 0;
+    text-align: center;
 }
 li {
     list-style: none;
   float: left;
+    text-align: center;
 }
 
 /* Base Styling and Visited*/
@@ -112,7 +169,7 @@ a:visited {
   text-decoration: none;
   padding-top: 0;
   width: 100px; 
-  
+    float:right;  
   transition: padding-top 1s;
   }
 
@@ -120,8 +177,8 @@ a:visited {
 a:focus,
 a:hover,
 a:active {
-  background: #66F9F4;
-  color: #60EA52;
+  background: plum;
+  color: purple;
   border-left: 8px solid #fff;
    padding-top: 32px;
 }
